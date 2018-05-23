@@ -1,0 +1,511 @@
+#hmfooter {
+	font-size: x-small;
+	text-align: center;
+}
+.vrcadmincaltable td {
+	background:#f9f9f9;
+	font-size:11px;
+	width:26px;
+	height:15px;
+}
+.vrcadmincaltable .busy {
+	background:#8AA9CA;
+}
+.vrcadmincaltable .busy a {
+	font-weight:bold;
+	color:#fff;
+}
+.vrcadmincaltrmon td {
+	background:#346983;
+	color:#fff;
+	font-weight:bold;
+	padding:4px 0;
+}
+.vrcadmincaltrmdays td {
+	background:#CCCCCC;
+	text-align:center;
+}
+.vrcorderof {
+	padding:10px 0;
+	font-size:14px;
+}
+.vrcorderof a {
+	font-size:12px;
+}
+.vrcorderpar {
+	margin:10px 0 5px 0;
+	padding:0;
+	font-weight:bold;
+	font-size:13px;
+}
+.vrcorderspan {
+	font-weight:bold;
+	margin-left: 0 !important;
+	margin-top: 5px;
+	min-height: inherit !important;
+}
+.vrcorderpartot {
+	padding:5px 10px;
+	margin:10px 5px;
+	background:#efefef;
+	border:1px solid #ccc;
+	border-radius:4px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	font-weight:bold;
+}
+.vrcorderseatasconf {
+	background:#348741;
+	border:1px solid #235A2C;
+	border-radius:4px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	margin:5px 4px 10px 0;
+	width:auto;
+	display:inline-block;
+	padding:10px;
+}
+.vrcorderseatasconf a {
+	color:#fff !important;
+	font-weight:bold;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+.successmade{
+	background:url("./ok.png") no-repeat scroll 10px center #EFEFEF !important; 
+    border: 1px solid #DDDDDD !important;
+    color: #006511;
+    font-family: "Century Gothic",Tahoma,Arial;
+    padding: 22px 0 0 40px !important;
+	height:40px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	margin:15px 0 0 0;
+}
+
+.err{
+	background:url("./no.png") no-repeat scroll 10px center #EFEFEF !important; 
+	border: 1px solid #DDDDDD !important;
+    color: #F00;
+    font-family: "Century Gothic",Tahoma,Arial;
+    padding: 22px 0 0 40px !important;
+	height:40px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	margin:15px 0 0 0;
+}
+
+.warn{
+	background:url("./warning.png") no-repeat scroll 10px center #EFEFEF !important; 
+	border: 1px solid #DDDDDD !important;
+    color: #F00;
+    font-family: "Century Gothic",Tahoma,Arial;
+    padding: 22px 0 0 40px !important;
+	height:40px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	margin:15px 0 0 0;
+}
+
+.maxthirty{
+	cursor: pointer;	
+	max-height: 30px;
+	height: expression(this.height > 30 ? "30px" : true);
+	max-width: 30px;
+	width: expression(this.width > 30 ? "30px" : true);
+
+}
+
+.maxfifty{
+	max-height: 50px;
+	height: expression(this.height > 50 ? "50px" : true);
+}
+
+.maxninety{
+	max-height: 190px;
+	height: expression(this.height > 190 ? "190px" : true);
+}
+
+.imgresult{
+	max-height: 85px;
+	height: expression(this.height > 85 ? "85px" : true);
+	max-width: 130px;
+	width: expression(this.width > 130 ? "130px" : true);
+}
+
+.vmain{
+	background-image: url('./tab.png');
+	background-position: center left;
+	background-repeat: no-repeat;
+	height: 40px;
+	width: 160px;
+	font-weight: bold;
+	font-size:14px;
+	color: #fff !important;
+}
+
+.vmenulink{
+	background-image: url('./vmenulink.png');
+	background-position: center left;
+	background-repeat: no-repeat;
+	height: 30px;
+	width: 160px;
+}
+
+.vmenulink a {
+	color:#333 !important;
+}
+
+.vmenulinkactive{
+	background-image: url('./vmenulink_active.png');
+	background-position: center left;
+	background-repeat: no-repeat;
+	height: 30px;
+	width: 160px;
+}
+
+.vmenulinkactive a {
+	color:#fff !important;
+}
+.vrcsubmitfares {
+	background: none repeat scroll 0 0 #708827 !important;
+    border: 1px solid #5D7120 !important;
+    border-radius: 4px 4px 4px 4px;
+    color: #FFFFFF !important;
+    font-size: 14px;
+    padding: 5px;
+	margin:10px 0 0 0;
+}
+.vrcsubmithfares {
+	background: none repeat scroll 0 0 #0B9E9E !important;
+    border: 1px solid #007171 !important;
+    border-radius: 4px 4px 4px 4px;
+    color: #FFFFFF !important;
+    font-size: 14px;
+    padding: 5px;
+	margin:10px 0 0 0;
+}
+
+.vrcsubmithcharges {
+	background: none repeat scroll 0 0 #386B16 !important;
+	border: 1px solid #2D5511 !important;
+	border-radius: 4px 4px 4px 4px;
+	color: #FFFFFF !important;
+	font-size: 14px;
+	padding: 5px;
+	margin:10px 0 0 0;
+	cursor:pointer;
+}
+
+.free{
+	color: #000000;
+}
+
+.busy{
+	color: #000000;
+	background: #FF0000;
+}
+
+.notbusy{
+	color: #000000;
+	background: #77c06c;
+}
+.bluedays{
+	background: #8AA9CA;
+	min-width: 2.7%;
+}
+.icon-48-vikrentcar {
+	background: url('./icon-48-vikrentcar.png') no-repeat;
+}
+
+td.carname {
+	background: #d3dae1;
+}
+
+.dailyprices {
+	background-image: url('./daily_tab.png');
+	background-repeat: no-repeat;
+	text-align: center;
+	float: left;
+	font-weight: bold;
+	width: 153px;
+	height: 34px;
+	font-size:11px;
+	line-height:34px;
+	text-transform:uppercase;
+	color:#5d7120;
+}
+.dailypricesactive {
+	text-align: center;
+	float: left;
+	font-weight: bold;
+	width: 153px;
+	height: 34px;
+	font-size:11px;
+	line-height:34px;
+	text-transform:uppercase;
+	color:#5d7120;
+}
+.dailyprices:hover, .dailypricesactive {
+	background: url('./daily_tab_on.png') no-repeat;
+}
+.dailyprices a {
+	color:#5d7120 !important;
+}
+.dailyprices a:hover {
+	text-decoration:none !important;
+}
+.hourlyprices {
+	background-image: url('./hourly_tab.png');
+	background-repeat: no-repeat;
+	text-align: center;
+	float: left;
+	font-weight: bold;
+	color: #007171;
+	width: 154px;
+	height: 34px;
+	font-size:11px;
+	line-height:34px;
+	text-transform:uppercase;
+}
+.hourlypricesactive {
+	text-align: center;
+	float: left;
+	font-weight: bold;
+	color: #007171;
+	width: 154px;
+	height: 34px;
+	font-size:11px;
+	line-height:34px;
+	text-transform:uppercase;
+}
+.hourlyprices:hover, .hourlypricesactive {
+	background: url('./hourly_tab_on.png') no-repeat;
+}
+.hourlyprices a {
+	color: #007171 !important;
+}
+.hourlyprices a:hover {
+	text-decoration:none !important;
+}
+.hourscharges {
+	background-image: url('./hourscharges_tab.png');
+	background-repeat: no-repeat;
+	text-align: center;
+	float: left;
+	font-weight: bold;
+	color: #5D7120;
+	width: 154px;
+	height: 34px;
+	font-size:11px;
+	line-height:34px;
+	text-transform:uppercase;
+}
+.hourschargesactive {
+	text-align: center;
+	float: left;
+	font-weight: bold;
+	color: #5D7120;
+	width: 154px;
+	height: 34px;
+	font-size:11px;
+	line-height:34px;
+	text-transform:uppercase;
+}
+.hourscharges:hover, .hourschargesactive {
+	background: url('./hourscharges_tab_on.png') no-repeat;
+}
+.hourscharges a {
+	color: #5D7120 !important;
+}
+.hourscharges a:hover {
+	text-decoration:none !important;
+}
+.vrcadminfaresctitle {
+	background: none repeat scroll 0 0 #EEEEEE;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 4px 4px 4px;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0 0 10px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.vrcdashparag {
+	font-size:12px;
+}
+.vrcdashparagred {
+	font-weight: bold;
+	color: #ff0000;
+}
+.vrcdashspanright {
+	float: right;
+	padding:0 0 20px 0;
+	font-size:12px;
+}
+.vrcdashspanright form {
+	padding:0 0 0 3px;
+	display:inline;
+}
+.vrcdashdivleft {
+	float:left;
+	border:1px solid #ddd;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	background:#fff;
+	padding:20px;
+	box-shadow:0 0 2px #ddd;
+	-moz-box-shadow:0 0 2px #ddd;
+	-webkit-box-shadow:0 0 2px #ddd;
+	margin:15px 30px 15px 0;
+	width:55%;
+}
+.vrcdashdivleft .vrcdashdivlefthead {
+	margin:0 0 10px 0;
+	padding:0;
+	text-transform:uppercase;
+	font-size:14px;
+	color:#0A5A24;
+}
+.vrcdashdivleft .vrcdashtable {
+	width:100%;
+}
+.vrcdashdivleft .vrcdashtable td, .vrcdashdivright .vrcdashtable td {
+	padding:3px 0;
+}
+.vrcdashdivleft .vrcdashtable td a, .vrcdashdivright .vrcdashtable a {
+	font-size:12px;
+	color:#016799;
+}
+.vrcdashdivright {
+	float:right;
+	border:1px solid #ddd;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	background:#fff;
+	padding:20px;
+	box-shadow:0 0 2px #ddd;
+	-moz-box-shadow:0 0 2px #ddd;
+	-webkit-box-shadow:0 0 2px #ddd;
+	margin:15px 0 15px 0;
+	width:30%;
+}
+.vrcdashdivright .vrcdashdivrighthead {
+	margin:0 0 10px 0;
+	padding:0;
+	text-transform:uppercase;
+	font-size:14px;
+	color:#0A5A24;
+}
+.vrcdashdivright .vrcdashtable {
+	width:100%;
+}
+.vrcdashdivright .vrcdashtable .vrcdashtrlastres td, .vrcdashdivleft .vrcdashtable .vrcdashtrlastres td {
+	font-size:12px;
+	font-weight:bold;
+	color:#000;
+	text-transform:uppercase;
+	padding:0 0 5px 0;
+}
+.vrcdashdivleft .vrcdashtable .vrcdashtrlastres td:first-child {
+	padding:0 5px;
+}
+div.current {
+    border: 1px solid #CCCCCC;
+    clear: both;
+    padding: 10px;
+}
+dl.tabs {
+    float: left;
+    margin: 10px 0 -1px;
+    z-index: 50;
+}
+dl.tabs dt.open {
+    background: none repeat scroll 0 0 #F9F9F9;
+    border-bottom: 1px solid #F9F9F9;
+    color: #000000;
+    z-index: 100;
+}
+dl.tabs dt {
+    background: none repeat scroll 0 0 #E9E9E9;
+    border: 1px solid #CCCCCC;
+    color: #666666;
+    float: left;
+    margin-left: 3px;
+    padding: 4px 10px;
+}
+dt.tabs span h3 {
+    font-size: 13px;
+}
+.vrcspandateadd {
+	padding: 5px;
+	color: #000000;
+	cursor: pointer;
+	border:1px solid #ddd;
+	background:#f0f0ee;
+	float: none !important;
+	display: inline-block !important;
+	width: auto !important;
+	margin:0 0 5px 0 !important;
+}
+.vrcdownloadpdf {
+	font-weight: bold;
+	background-image: url("./pdf_icon.gif");
+	background-repeat:no-repeat;
+	background-position: left center;
+	padding-left: 18px;
+	margin-left: 0px !important;
+}
+.vrcoverviewtable {
+	width: 100%;
+	border: 1px solid #cccccc;
+}
+.vrcoverviewtablerow {
+	height: 30px;
+}
+.vrcoverviewtdone {
+	min-width: 130px !important;
+}
+
+/* Config: Do not edit this */
+.vikpaymentparam {
+	display: block;
+	padding: 2px;
+}
+.vikpaymentparamlabel {
+	display: inline-block;
+	min-width: 130px;
+}
+.vikpaymentparaminput {
+	display: inline-block !important;
+}
+.vikpaymentparamlabelhelp {
+	font-size: smaller;
+	font-style: italic;
+	padding-left: 5px;
+}
+.icon-vikrentcar:before {
+	content: "4";
+}
+.icon-vikrentcarconfig:before {
+	content: "7";
+}
+input, textarea, select {
+    width: auto !important;
+}
+table.adminform label {
+	display: inline;
+	margin:0 0 0 5px;
+}
+table.adminform td {
+	padding: 6px 0;
+}
+table.adminform div.input-append {
+	display: inline;
+}

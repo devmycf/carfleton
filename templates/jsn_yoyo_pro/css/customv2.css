@@ -1,0 +1,64 @@
+.jsn-view-showprc #js-meganav {
+    display: none;
+}
+
+
+.listadocochesreserva .car-card {
+    width: 300px;
+    margin: 0 !important;
+    border: 1px solid #e0e7da;
+}
+
+.listadocochesreserva .car-card:not(:nth-child(1)) {
+    margin-top: 55px !important;
+}
+
+
+@media screen and (min-width: 767px){
+    .listadocochesreserva .car-card:nth-child(2) {
+        margin-top: 0px !important;
+    }
+    
+    .listadocochesreserva .car-card{
+        margin-left: 15px !important;
+        margin-right: 15px !important;
+    }
+}
+
+@media screen and (min-width:1023px){
+    .listadocochesreserva .car-card {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:1200px){
+    .car-card .vrclistcarsimagen, .booknow3, .car-card {
+        height: 120px;
+    }
+    
+    .bubble-price {
+        right: 70px;
+        left: initial;
+    }
+    
+    .vrccaratsdiv {
+        padding-left: 15px;
+        margin-top: 10px;
+    }
+    .bubble-caracts .vrccarcarat {
+        width: 24px;
+        height: 24px !important;
+    }
+    
+    .listadocochesreserva .car-card:not(:nth-child(1)) {
+        margin-top: 25px !important;
+    }
+}
+
+@media screen and (min-width:1400px){
+    .bubble-price {
+        right: 320px;
+        left: initial;
+    }
+    
+}

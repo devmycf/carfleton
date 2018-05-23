@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3" type="plugin" group="system" method="upgrade">
+        <name>aikon Smooth Scroll</name>
+        <author>aikon CMS</author>
+        <creationDate>October  2014</creationDate>
+        <copyright>aikon CMS</copyright>
+        <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+        <authorEmail>info@aikoncms.com</authorEmail>
+        <authorUrl>http://www.aikoncms.com</authorUrl>
+        <version>1.2</version>
+        <description>
+        <![CDATA[
+        <h1>
+        <img src="../plugins/system/aikon_smooth_scroll/assets/aikonlogo.png" />
+	<h1 style="line-height:150%;font-weight: normal; font-family:arial;font-size:15px; color: #333;">Developing a beatiful website? adding some nice effects? animations? parallax maybe?<br> 
+Have you ever visited an animated and parallaxed website with CHROME or webkit based browsers?<br>
+those browsers have a jerky and clunky scroll, and not a nice smooth scroll like firefox? this ruins your whole thing!</h1>
+	<p style="font-family:arial;margin-bottom: 30px; font-size: 13px; font-weight: bold; color: #666;">For support and more information please visit our website www.aikoncms.com
+]]>
+		</description>
+		
+        <files>
+            <folder>assets</folder>
+			<folder>fields</folder>
+			<filename plugin="aikon_smooth_scroll">aikon_smooth_scroll.php</filename>
+			<filename>aikon_smooth_scroll.xml</filename>
+            <filename>index.html</filename>
+        </files>
+		
+		<languages>
+			<language tag="en-GB">en-GB.plg_system_aikon_smooth_scroll.ini</language>
+			<language tag="en-GB">en-GB.plg_system_aikon_smooth_scroll.sys.ini</language>
+		</languages>
+		
+		<config>
+			<fields name="params" addfieldpath="/plugins/system/aikon_smooth_scroll/fields">
+				<fieldset name="basic">
+				
+				<field name="styler" type="styler" label="styler" description="adds style to module backend"   />
+					<field
+						name="loadJquery"
+						type="radio"
+						class="btn-group"
+						default="0"
+						label="PLG_WEBKITSMOOTH_FIELD_LOAD_JQUERY_LABEL"
+						description="PLG_WEBKITSMOOTH_FIELD_LOAD_JQUERY_DESC">
+
+						<option
+							value="0">JNO</option>
+						<option
+							value="1">JYES</option>					
+					</field>
+				</fieldset>
+			</fields>
+		</config>
+	
+</extension>

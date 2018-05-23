@@ -1,0 +1,10 @@
+.tab-content .tab-pane.active{
+	background: url('../logo.png') center center no-repeat;
+	min-height: 700px;
+	
+}
+
+#permissions-sliders div.tab-pane.active{
+	background:none!important;
+}
+

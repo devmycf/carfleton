@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension type="module" version="1.6.0" client="site" method="upgrade">
+    <name>Vik Contact Form</name>
+    <author>Valentina Arras - Extensionsforjoomla.com</author>
+    <creationDate>September 2014</creationDate>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <authorEmail>templates@extensionsforjoomla.com</authorEmail>
+    <authorUrl>www.extensionsforjoomla.com</authorUrl>
+    <version>1.0</version>
+    <description>
+        <![CDATA[ 
+    <div style="font-weight:normal; font-size:13px;">
+      <h2 style="color:#666; font-size:22px; font-weight:normal; border-bottom:1px solid #ddd;">Vik Contact Form</h2>
+      <p>You can create a simple Contact Form for your website.</p>
+    </div>
+    <div style="font-size:12px; float:right;">
+      <a style="color:#666;" href="http://extensionsforjoomla.com/" target="_blank">Copyright Extensions For Joomla</a>
+    </div>
+  ]]>
+    </description>
+    <files>
+        <filename module="mod_vikcontactform">mod_vikcontactform.php</filename>
+        <filename>mod_vikcontactform.xml</filename>
+        <filename>mod_vikcontactform.css</filename>
+        <filename>helper.php</filename>
+        <filename>index.html</filename>
+        <folder>php</folder>
+        <folder>tmpl</folder>
+    </files>
+
+    <languages>
+        <language tag="en-GB">languages/en-GB/en-GB.mod_vikcontactform.ini</language>
+    </languages>
+
+    <config>
+        <fields name="params">
+            <fieldset name="basic" addfieldpath="/modules/mod_vikcontactform/php">
+
+                <field name="label" type="radio" default="1" label="Show Labels" description="">
+                    <option value="1">yes</option>
+                    <option value="0">no</option>
+                </field>
+
+                <field name="name" type="radio" default="1" label="Name" description="">
+                    <option value="1">yes</option>
+                    <option value="0">no</option>
+                </field>
+                <field name="surname" type="radio" default="1" label="Surname" description="">
+                    <option value="1">yes</option>
+                    <option value="0">no</option>
+                </field>
+                <field name="email" type="radio" default="1" label="Email" description="">
+                    <option value="1">yes</option>
+                    <option value="0">no</option>
+                </field>
+                <field name="telephone" type="radio" default="1" label="Telephone" description="">
+                    <option value="1">yes</option>
+                    <option value="0">no</option>
+                </field>               
+                <field name="textfield" type="radio" default="1" label="Text Field" description="">
+                    <option value="1">yes</option>
+                    <option value="0">no</option>
+                </field>
+                 <field name="subject" type="radio" default="1" label="Subject" description="">
+                    <option value="1">yes</option>
+                    <option value="0">no</option>
+                </field>
+            </fieldset>
+            <fieldset name="formoptions" label="FORMOPTIONS" addfieldpath="/modules/mod_vikcontactform/elements">
+
+                <field name="emailto" type="text" default="" label="Email to" description="The email will send to this email address" />
+
+                <field name="width" type="text" default="100%" label="DIVWIDTH" description="DIVWIDTH" />
+
+                <field name="height" type="text" default="300px" label="DIVHEIGHT" description="DIVHEIGHT" />
+
+                <field name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+            </fieldset>
+
+        </fields>
+    </config>
+
+</extension>

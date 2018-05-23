@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extensionset name="JoomlaShine Extensions" description="JoomlaShine Extensions Updates">
+	<extension name="JSN Mobilize PRO STANDARD" element="com_mobilize" type="component" client="administrator" version="1.1.5" detailsurl="" />
+</extensionset>

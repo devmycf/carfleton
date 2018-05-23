@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extensionset name="JoomlaShine Extensions" description="JoomlaShine Extensions Updates">
+	<extension name="JSN PowerAdmin" element="com_poweradmin" type="component" client="administrator" version="2.2.7" detailsurl="" />
+</extensionset>

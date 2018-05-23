@@ -1,0 +1,127 @@
+.clearfix {
+    display: inline-block;
+}
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+div.vrcmodcarscontainer {
+	width: 100%;
+}
+div.vrcinf {
+	float:left;
+	padding:0 0 0 8px;
+}
+
+ul.vrcmodcarshorizontal {
+	list-style-type: none;
+}
+ul.vrcmodcarshorizontal li {
+	float:left;
+	display:block;
+	margin:0;
+	padding:0 0 10px 0;
+}
+ul.vrcmodcarshorizontal li:last-child {
+	margin:0;
+}
+
+ul.vrcmodcarshorizontal li img {
+	width:90px;	
+	float:left;
+}
+
+ul.vrcmodcarsvertical {
+	list-style-type: none;
+}
+
+.vrcmodcarsboxdiv {
+	position:relative;
+	padding:10px;
+	background:#efefef;
+	border:1px solid #bbb;
+	border-radius:4px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	box-shadow:0 1px 3px 0 #ccc;
+	-moz-box-shadow:0 1px 3px 0 #ccc;
+	-webkit-box-shadow:0 1px 3px 0 #ccc;
+	width:90%;
+}
+
+.vrcmodcarsboxdiv span {
+	display:block;
+	padding: 0 0 2px 0;
+}
+
+.vrcmodcarsvertical img.vrcmodcarsimg {
+	max-width: 99% !important;
+	float:none;
+	clear:both;
+	margin: 0 0 5px 0;
+}
+img.vrcmodcarsimg {}
+
+span.vrcmodcarsname {
+	font-weight: bold;
+	font-size:15px;
+	color:#444;
+}
+
+span.vrcmodcarscat {
+	font-weight: bold;
+	font-style: italic;
+}
+
+span.vrcmodcarsstartfrom {
+	color: #000000;
+}
+
+span.vrcmodcarscarcost {
+	font-weight: bold;
+	font-size:15px;
+	color:#444;
+}
+
+.vrcmodcarshorizontal span.vrcmodcarsview {
+	background: url(./sf-bt.png) repeat-x;
+	border: 1px solid #086100;
+    border-radius: 4px 4px 4px 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+    float: left;
+    font-size: 13px;
+    font-weight: bold;
+    height: 25px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    margin: 4px 0 0;
+    text-align: center;
+    width: 100px;
+}
+
+.vrcmodcarsvertical span.vrcmodcarsview {
+	background: url(./sf-bt.png) repeat-x;
+	border: 1px solid #086100;
+    border-radius: 4px 4px 4px 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+    height: 25px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    margin: 4px 0 0;
+    text-align: center;
+    width: 100px;
+	clear:both;
+}
+
+span.vrcmodcarsview a {
+	color:#fff !important;
+}

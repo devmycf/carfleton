@@ -1,0 +1,43 @@
+form.email p {
+font-size: 15px;
+padding: 0 0 10px 0;
+margin: 0;
+}
+
+form.email input, form.email textarea {
+font-family: Arial;
+font-size: 15px;
+margin: 0 0 20px 0;
+color: #ddd;
+}
+
+form.email input {
+padding: 8px;
+}
+
+form.email textarea {
+padding: 8px;
+width: 356px;
+height: 110px;
+}
+
+form.email input.send {
+color: #fff;
+background: #222;
+border: #000;
+padding: 10px 25px 10px 25px;
+cursor: pointer;
+}
+.vikcf-name {
+	float: left;
+	display: inline-block;
+	margin:0 20px 0 0;
+}
+.vikcf-email {
+	float: left;
+	display: inline-block;
+}
+.vikcf-message {
+	display: inline-block;
+	width:100%;
+}
